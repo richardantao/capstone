@@ -4,7 +4,78 @@
   "description": "ES 4499 Capstone Design Project",
   "main": "server.js",
   "directories": {
-    "test": "test"
+    "api": {
+      "controllers": {
+        "auth": "auth.js",
+        "parking": "parking.js",
+        "session": "session.js"
+      },
+      "middleware": {
+        "validation": {
+          "auth": "auth.js",
+          "parking": "parking.js",
+          "session": "session.js"
+        },
+        "auth": "auth.js"
+      },
+      "models": {
+        "Parking": "Parking.js",
+        "Session": "Session.js",
+        "User": "User.js"
+      },
+      "routes": {
+        "auth": "auth.js",
+        "parking": "parking.js",
+        "session": "session.js"
+      }
+    },
+    "config": {
+      "db": "db.js"
+    },
+    "test": "",
+    "views": {
+      "build": {},
+      "public": {
+        "index": "index.html"
+      },
+      "src": {
+        "actions": {
+          "auth": {
+            "auth": "auth.js",
+            "errors": "errors.js"
+          },
+          "session": "session.js"
+        },
+        "components": {
+          "atoms": {
+
+          },
+          "molecules": {
+
+          },
+          "organisms": {
+            "Nav": "Nav.js"
+          },
+          "pages": {
+            "Dashboard": "Dashboard.js",
+            "Home": "Home.js",
+            "Maps": "Maps.js"
+          },
+          "reactors": {
+
+          }
+        },
+        "reducers": {
+          "auth": {
+            "auth": "auth.js",
+            "errors": "errors.js"
+          },
+          "index": "index.js",
+          "parking": "parking.js",
+          "session": "session.js"
+        }
+      }
+    }
   },
   "scripts": {
     "test": "mocha",

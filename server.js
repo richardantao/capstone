@@ -17,7 +17,7 @@ app.use(express.json());
 
 /* --- Routes --- */
 app.use("/api/v1", require("./api/routes/auth"));
-
+app.use("/api/v1", require("./api/routes/session"));
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "views/build/index.html"));

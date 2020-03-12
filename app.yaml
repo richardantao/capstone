@@ -1,0 +1,4 @@
+servive: default
+runtime: nodejs10
+
+handlers:

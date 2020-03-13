@@ -1,11 +1,12 @@
-const Schema = require("mongoose").Schema;
-const model = require("mongoose").model;
+const mongoose = require("mongoose");
 
-var SessionSchema = new Schema({
-    _id: Schema.Types.ObjectId,
-    user: { type: Schema.Types.ObjectId, required: true, ref: "users" }
+var SessionSchema = new mongoose.Schema({
+    user: { type: Schema.Types.ObjectId, required: true, ref: "User" },
+    lot: { type: Schema.Types.ObjectId, required: true, ref: "Lot" },
+    price: { type: Number, required: true },
+    expires: { type: Date, required: true }
+}, {
+    timestamps: true
 });
 
-var SessionModel = model("Session", SessionSchema);
-
-module.exports = SessionModel;
+module.exports = mongoose.model("Session", SessionSchema);

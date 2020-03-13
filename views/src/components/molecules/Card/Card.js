@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Col } from "reactstrap";
+import { Card } from "reactstrap";
 
 export default ({ }) => {
     return (
-        <Col>
+        <Card>
             
-        </Col>
+        </Card>
     );
 };

@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-// import { } from "../../../actions/";
+import { } from "../../../actions/";
 import PropTypes from "prop-types";
 
-import AuthNav from "../AuthNav";
-import AppNav from "../AppNav";
+import { Col, Row } from "reactstrap";
 
-import "./Maps.scss";
+import "./Deck.scss";
 
 class Deck extends Component {
     state = {
@@ -23,32 +21,56 @@ class Deck extends Component {
 
     };
 
-    componentDidUpdate() {
+    componentDidUpdate(prevProps) {
+        const { 
+            error, 
+            lot: { lots }
+        } = this.props;
 
+        if(error !== prevProps.error) {
+            if(error.id === "LOT_ERROR") {
+                this.setState({
+
+                });
+            } else {
+                this.setState({
+
+                });
+            };
+        };
+
+        if(lots !== prevProps.lot.lots) {
+            this.setState({
+
+            });
+        };
     };
 
     render() {
         const { } = this.state;
 
         return (
-            <>
-                <Helmet>
-                    <meta name="description" content=""/>
-                    <meta name="keywords" content=""/>
-                    <title>Maps</title>
-                </Helmet>
-                <AuthNav/>
-                <AppNav/>
-                <main role="main">
-
-                </main>
-            </>
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                        
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                        
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
         );  
     }
 };
 
 const mapStateToProps = state => ({
-
+    error: state.error,
+    lot: state.lot
 });
 
 const mapDispatchToProps = { };

@@ -2,7 +2,7 @@ import {
     SESSION_REQUESTED, SESSION_ERROR,
     SESSION_CREATED, SESSION_FETCHED,
     SESSION_RETURNED, SESSION_UPDATED, SESSION_DELETED
-} from "../actions/types";
+} from "../../actions/types";
 
 const initialState = {
     loading: false,

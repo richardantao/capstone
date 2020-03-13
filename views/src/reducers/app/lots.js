@@ -1,7 +1,7 @@
 import { 
-    LOTS_REQUESTED, LOT_ERROR,
+    LOT_REQUESTED, LOT_ERROR,
     LOTS_FETCHED, LOT_INSPECTED
-} from "../actions/types";
+} from "../../actions/types";
 
 const initialState = {
     loading: false,
@@ -10,7 +10,7 @@ const initialState = {
 
 export default (state = initialState, action) => {
     switch(action.type) {
-        case LOTS_REQUESTED: 
+        case LOT_REQUESTED: 
             return {
                 ...state,
                 loading: true

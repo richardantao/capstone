@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { } from "../../../actions/";
+// import { } from "../../../actions/";
 import PropTypes from "prop-types";
 
-import Nav from "../../organisms/Nav";
+import AuthNav from "../../organisms/AuthNav";
+import AppNav from "../../organisms/AppNav";
 
-import "./Maps.scss";
-
-class Maps extends Component {
+class List extends Component {
     state = {
 
     };
@@ -34,9 +33,10 @@ class Maps extends Component {
                 <Helmet>
                     <meta name="description" content=""/>
                     <meta name="keywords" content=""/>
-                    <title>Maps</title>
+                    <title>List</title>
                 </Helmet>
-                <Nav/>
+                <AuthNav/>
+                <AppNav/>
                 <main role="main">
 
                 </main>
@@ -51,4 +51,4 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { };
 
-export default connect (mapStateToProps, mapDispatchToProps)(Maps);
+export default connect (mapStateToProps, mapDispatchToProps)(List);

@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { register } from "../../../actions/auth";
-import { clearErrors } from "../../../actions/errors";
+import { register } from "../../../actions/auth/auth";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
 import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import "./Register.scss";
 
-class Register extends Component {
+class RegisterReactor extends Component {
     state = {
         first: "",
         last: "",
@@ -24,10 +23,10 @@ class Register extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    componentDidMount() {
+    async componentDidMount() {
         const { clearErrors } = this.props;
 
-        clearErrors();
+        await clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -69,11 +68,6 @@ class Register extends Component {
 
         return (
             <>
-                <Helmet>
-                    <meta name="description" content="" />
-                    <meta name="keywords" content="" />
-                    <title>Register</title>
-                </Helmet>
                 <Form onSubmit={this.handleSubmit}>
                     {  message === "Account Registered" ? (
                         <Alert color="success">{message}</Alert>
@@ -87,6 +81,7 @@ class Register extends Component {
                             type="text"
                             value={first}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="last">Last Name</Label>
@@ -95,6 +90,7 @@ class Register extends Component {
                             type="text"
                             value={last}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>
@@ -104,6 +100,7 @@ class Register extends Component {
                             type="email"
                             value={email}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="password">Password</Label>
@@ -112,6 +109,7 @@ class Register extends Component {
                             type="password"
                             value={password}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>
@@ -129,5 +127,5 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { register, clearErrors };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Register);
+export default connect(mapStateToProps, mapDispatchToProps)(RegisterReactor);
 

@@ -1,0 +1,894 @@
+[
+    {
+        "formatted_address": "7 Bedford Rd, Toronto, ON M5R 2J7",
+        "geometry": {
+            "location": {
+                "lat": 43.6687226,
+                "lng": -79.3975366
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67005942989272,
+                    "lng": -79.39618077010728
+                },
+                "southwest": {
+                    "lat": 43.66735977010728,
+                    "lng": -79.39888042989273
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "16099a1859a1c1d8b8dcc4484405207a797c19d1",
+        "name": "Green P Parking Carpark",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105791998087268569743\">MasY</a>"
+                ],
+                "photo_reference": "CmRaAAAABZZOluMVhV-Ztt8LhxSTfz2Z0uO3td1n7avtu8koXVYrVe1L_1zRgPwLQiZTvj48HNX9RLQm2IJ0STY4w1_l2aWK88PE5i08L1tKFz9r0d87hojXGqQRE09BrblJbFxIEhAgO_uM-PImsK6jYIw7TBNgGhSCHJ0v7HA4lC3gUcmxYpZoH_MBXQ",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJvfHLoLw0K4gR5Ab6iFJmn68",
+        "plus_code": {
+            "compound_code": "MJ92+FX Toronto, Ontario",
+            "global_code": "87M2MJ92+FX"
+        },
+        "rating": 3.5,
+        "reference": "ChIJvfHLoLw0K4gR5Ab6iFJmn68",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 35
+    },
+    {
+        "formatted_address": "74 Yorkville Ave, Toronto, ON M5R 1B9",
+        "geometry": {
+            "location": {
+                "lat": 43.6712608,
+                "lng": -79.3910885
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67256952989273,
+                    "lng": -79.38972417010729
+                },
+                "southwest": {
+                    "lat": 43.66986987010728,
+                    "lng": -79.39242382989273
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "f9a2aa684ec146ddcd6e5f2f0f7d972eac920a92",
+        "name": "Green P Parking Carpark",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105791998087268569743\">Ali Saremi</a>"
+                ],
+                "photo_reference": "CmRaAAAAx2qycne5A0HGLu2Ow2JqTOujlNzhflVyJ3jazobMwWNqSb3Pfp4LV5z0q1csRq16o0rSHfN6SWNXBMycpdw4k4H6KCcanpgzsrWiAheMwxcg2OWAoT_6pNdRGNVey254EhAXeHgddDfrUD0c0F4PPpXZGhQlk19KqqMNIS9WmQy5ofylk7BxiQ",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJl_1egq80K4gR1pM9qaw_CFM",
+        "plus_code": {
+            "compound_code": "MJC5+GH Toronto, Ontario",
+            "global_code": "87M2MJC5+GH"
+        },
+        "rating": 3.8,
+        "reference": "ChIJl_1egq80K4gR1pM9qaw_CFM",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 37
+    },
+    {
+        "formatted_address": "44 Charles St W, Toronto, ON M4Y 1T1",
+        "geometry": {
+            "location": {
+                "lat": 43.6691527,
+                "lng": -79.3888764
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67041272989272,
+                    "lng": -79.38766537010729
+                },
+                "southwest": {
+                    "lat": 43.66771307010728,
+                    "lng": -79.39036502989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "61cb5462971c0ab6a6c67fdc5194add56f14d96b",
+        "name": "Impark Parking (Manulife Centre)",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104098636508668276784\">Welles Li</a>"
+                ],
+                "photo_reference": "CmRaAAAAkyiGXafGMpQrZxdy5UGJOHAUoAOl3JkrMa9f68H8QRR8da1CuDlldHQak7u599GbMCIhXb86iDXBrPa1unlElD3SmhVSr0MwbyhGYOiUx0744rObiMZcmPKM56uuFrKvEhAVhZ6vtRW6iV6x5UvAwV0EGhTjKvHk-s_E-QkYG9yIyWohwMWdUg",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJyaq217E0K4gRHE1srZ_cS_Y",
+        "plus_code": {
+            "compound_code": "MJ96+MC Toronto, Ontario",
+            "global_code": "87M2MJ96+MC"
+        },
+        "rating": 4.2,
+        "reference": "ChIJyaq217E0K4gRHE1srZ_cS_Y",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 10
+    },
+    {
+        "formatted_address": "110 Bloor St W, Toronto, ON M5S 2W7",
+        "geometry": {
+            "location": {
+                "lat": 43.6694469,
+                "lng": -79.3922485
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67103867989272,
+                    "lng": -79.39118267010728
+                },
+                "southwest": {
+                    "lat": 43.66833902010728,
+                    "lng": -79.39388232989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "4b2feaeab32935141e5e903773596c6101d3d74e",
+        "name": "110 Bloor Street West - Lot #476",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 432,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106840636756551784061\">Impark</a>"
+                ],
+                "photo_reference": "CmRaAAAAvtb73sziDeGQ7DAbTyaFK9P6gWfgQwd0gDNptDqtrUw70vTbXRmQioDhmv21xs3HSHL2k34eo-pGUJnQEfXZmDSoRn8DRXdeN0YZtTLpZDx50jHcvoM4WgqDNkO1vpn3EhCvOORYC5stjdoj7GEXNBJbGhT2qcio4gEblw2-Cgc5pWpYAL3URw",
+                "width": 720
+            }
+        ],
+        "place_id": "ChIJk73pUaU0K4gRMgDNw0acg50",
+        "plus_code": {
+            "compound_code": "MJ95+Q4 Toronto, Ontario",
+            "global_code": "87M2MJ95+Q4"
+        },
+        "rating": 3,
+        "reference": "ChIJk73pUaU0K4gRMgDNw0acg50",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "formatted_address": "1075 Bay St, Toronto, ON M5S 2B1",
+        "geometry": {
+            "location": {
+                "lat": 43.6672733,
+                "lng": -79.3880461
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66875027989273,
+                    "lng": -79.38670722010727
+                },
+                "southwest": {
+                    "lat": 43.66605062010728,
+                    "lng": -79.3894068798927
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "3a28d1d0ccc7fa630d68687b16ec70a7922bb35d",
+        "name": "Parking Downtown Toronto at 1075 Bay St.",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 680,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104702670409505173897\">Standard Parking</a>"
+                ],
+                "photo_reference": "CmRaAAAA1XWvgdPhBkwRIYD9RkpRzIfWre-QvBlrIGYTPfm8ZYZ1KwvSUXQThGiHrji2FvovNoX7iuYv5wc7HPL2cU6xFsAET50M226628Wxtf2zfT2sxclcoJhh7_GsKCmCxa5yEhBwdCOW_mkOs3RnFzSuxLLpGhQ2w9uJKWiKTYP5LR8ms3Cbpuhv3Q",
+                "width": 1080
+            }
+        ],
+        "place_id": "ChIJGbdYsLE0K4gR2RkkbOAA5pM",
+        "plus_code": {
+            "compound_code": "MJ86+WQ Toronto, Ontario",
+            "global_code": "87M2MJ86+WQ"
+        },
+        "rating": 2.9,
+        "reference": "ChIJGbdYsLE0K4gR2RkkbOAA5pM",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 16
+    },
+    {
+        "formatted_address": "790 Bay St, Toronto, ON M5G 1N8",
+        "geometry": {
+            "location": {
+                "lat": 43.6604363,
+                "lng": -79.386293
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66185067989272,
+                    "lng": -79.38466467010727
+                },
+                "southwest": {
+                    "lat": 43.65915102010728,
+                    "lng": -79.3873643298927
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a30051e540c79ab60a6a554f18f1788c95cb74b6",
+        "name": "Parking for 790 Bay Street",
+        "photos": [
+            {
+                "height": 4048,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102553769511302489247\">Android Dave</a>"
+                ],
+                "photo_reference": "CmRaAAAAJudeSRZMBrpGiC_CYfm3NAWY-6szJWZLMYmCUmcWYMy_4ka0MFaXxlSvGFFgGjnTCLi6W5xpUe9jkWTUPPZqY5gtDLuVkaPQcd67UQmGKrkIUzqGbtMjG5HRwVNMUY3wEhDOuJORzi5CvFKVhMsnXLUDGhSgkNUpErTXctABbDfFFiKUs9BA3Q",
+                "width": 3036
+            }
+        ],
+        "place_id": "ChIJOUKYdbY0K4gRrydKKwSTIkM",
+        "plus_code": {
+            "compound_code": "MJ67+5F Toronto, Ontario",
+            "global_code": "87M2MJ67+5F"
+        },
+        "rating": 2.7,
+        "reference": "ChIJOUKYdbY0K4gRrydKKwSTIkM",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 7
+    },
+    {
+        "formatted_address": "76 Grenville St, Toronto, ON M5S 1B1",
+        "geometry": {
+            "location": {
+                "lat": 43.6616428,
+                "lng": -79.3870773
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66285997989272,
+                    "lng": -79.38564487010727
+                },
+                "southwest": {
+                    "lat": 43.66016032010728,
+                    "lng": -79.38834452989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "5eef77f45c6d4789430ca1df39ab7f96e6d82134",
+        "name": "Women's College Hospital Parking Garage - Lot #481",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2678,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100582461384937632136\">Impark</a>"
+                ],
+                "photo_reference": "CmRaAAAAmhjrT7O8sAwEKXx_DpS7_wrz7Ne2VMUL7hNOtq7c8CB5_RNIClF0Nyt-a9-07a-Jw99AQU17OzqayMlLnnlIcy2WloDSBty98rGsazfgvd6f30rgbaSNbWMbwRlqhxJlEhCs4Y1CZStaM4XgsCyFRkfzGhTRdCbcNMIiD8EXkoLv1bEkl-Q30A",
+                "width": 4464
+            }
+        ],
+        "place_id": "ChIJp4OOh7Y0K4gRyD0K_lDoh0k",
+        "plus_code": {
+            "compound_code": "MJ67+M5 Toronto, Ontario",
+            "global_code": "87M2MJ67+M5"
+        },
+        "rating": 4.4,
+        "reference": "ChIJp4OOh7Y0K4gRyD0K_lDoh0k",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 394
+    },
+    {
+        "formatted_address": "57 Charles St W, Toronto, ON M5S 2X1",
+        "geometry": {
+            "location": {
+                "lat": 43.6676701,
+                "lng": -79.389445
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66923672989272,
+                    "lng": -79.38808087010729
+                },
+                "southwest": {
+                    "lat": 43.66653707010727,
+                    "lng": -79.39078052989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "54a6118e1c923175f4346f8416a2f1b509b4f27e",
+        "name": "55/57 Charles Street West Apts - Lot #113",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106771557047960915662\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAuDkSChz5zCfCLy6mkY2q3uPVta5ZosPA0dEdPIRCBSMBBhbPo25P29GzBBbqhnVtCF4qb5yGcJXzCgNc1DTU79Pv9ZNku-BjM1H5-HRHzh0aKfNE5PsfZfYUnSbhvRjREhAZRRMB8qFPi-Vg-0ZMdXBYGhRxArb1TpmiK_TzZcG0X1bVSuANaA",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJiWNdOLA0K4gRpJMTzzDXZJA",
+        "plus_code": {
+            "compound_code": "MJ96+36 Toronto, Ontario",
+            "global_code": "87M2MJ96+36"
+        },
+        "rating": 3.6,
+        "reference": "ChIJiWNdOLA0K4gRpJMTzzDXZJA",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 11
+    },
+    {
+        "formatted_address": "56 Wellesley St W, Toronto, ON M7A 1C1",
+        "geometry": {
+            "location": {
+                "lat": 43.6647985,
+                "lng": -79.3874585
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66591322989272,
+                    "lng": -79.38601432010726
+                },
+                "southwest": {
+                    "lat": 43.66321357010728,
+                    "lng": -79.38871397989271
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0361f61a6e51a0abc558e49623c188e8789e1303",
+        "name": "Indigo",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJl-sqMbE0K4gRlpUByBGt45M",
+        "plus_code": {
+            "compound_code": "MJ77+W2 Toronto, Ontario",
+            "global_code": "87M2MJ77+W2"
+        },
+        "rating": 4,
+        "reference": "ChIJl-sqMbE0K4gRlpUByBGt45M",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "formatted_address": "150 Bloor St W, Toronto, ON M5S 2X9",
+        "geometry": {
+            "location": {
+                "lat": 43.669006,
+                "lng": -79.393562
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67027097989272,
+                    "lng": -79.39217567010728
+                },
+                "southwest": {
+                    "lat": 43.66757132010728,
+                    "lng": -79.39487532989271
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c80d8bc3762abff9dd22669ff0753cd20ba8b198",
+        "name": "Indigo",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJCeCzzbo0K4gRRj5C4azCwJY",
+        "plus_code": {
+            "compound_code": "MJ94+JH Toronto, Ontario",
+            "global_code": "87M2MJ94+JH"
+        },
+        "rating": 3.8,
+        "reference": "ChIJCeCzzbo0K4gRRj5C4azCwJY",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    {
+        "formatted_address": "625 Church St, East York, ON M4W 2G1",
+        "geometry": {
+            "location": {
+                "lat": 43.66989770000001,
+                "lng": -79.38210389999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67119092989272,
+                    "lng": -79.38101547010727
+                },
+                "southwest": {
+                    "lat": 43.66849127010728,
+                    "lng": -79.38371512989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "525f8e9072cbe0cf7fa686c658331e0c3049edcb",
+        "name": "625 Church Street Parking Lot- Lot #473",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1985,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104768350759416431914\">Impark</a>"
+                ],
+                "photo_reference": "CmRaAAAAiXrtlmpWQqzu9P1e9DlgO3ld0eKX5XOm0RE08nVluamzyv0S-u9QAJ1D_GIGaqOug3H9EW4euq_YvxslkB2RO3jiJQ4BeEcCZa9ew0ByIUqmi1avKncEGHs5k62HhX6yEhCvdWSZtGuB0lC9klC3QXr1GhSI39PnTjx_1eWHLTpTeQAftJfTgw",
+                "width": 3308
+            }
+        ],
+        "place_id": "ChIJb2BtAa00K4gRPkEmyWiXCw8",
+        "plus_code": {
+            "compound_code": "MJ99+X5 East York, Toronto, ON",
+            "global_code": "87M2MJ99+X5"
+        },
+        "rating": 2.6,
+        "reference": "ChIJb2BtAa00K4gRPkEmyWiXCw8",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 10
+    },
+    {
+        "formatted_address": "2 Bloor St E, Toronto, ON M4W 1A8",
+        "geometry": {
+            "location": {
+                "lat": 43.6710978,
+                "lng": -79.386063
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67231747989273,
+                    "lng": -79.38518577010727
+                },
+                "southwest": {
+                    "lat": 43.66961782010728,
+                    "lng": -79.3878854298927
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "85de2ea0c2c3160de87d4a964dcf6c20487424b8",
+        "name": "Parking - Hudson’s Bay Centre - Indigo",
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101026687187456078200\">saqib shahzad</a>"
+                ],
+                "photo_reference": "CmRaAAAAOoOasIcplSmvWP5_7rvBceTCqYdEkpeVKrkyg7ucBljvbmx2kcjhHq6sp2hinQ2eUV4-ShNlLgvKYfF7_-QjSM6_6HEp7JeSHd9JjnEIE_EEJiXcgU-vysKx4d1ZjmrREhDVGhhO2Qdr2JhqivebjLe6GhRlKUgVe191vei7_vtfa2ULjBXHpQ",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJ218nNaw0K4gRd85Oi1YxWIU",
+        "plus_code": {
+            "compound_code": "MJC7+CH Toronto, Ontario",
+            "global_code": "87M2MJC7+CH"
+        },
+        "rating": 4.5,
+        "reference": "ChIJ218nNaw0K4gRd85Oi1YxWIU",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 8
+    },
+    {
+        "formatted_address": "Downtown Toronto, ON M5S 2B8",
+        "geometry": {
+            "location": {
+                "lat": 43.66862589999999,
+                "lng": -79.391685
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66998642989272,
+                    "lng": -79.39027667010727
+                },
+                "southwest": {
+                    "lat": 43.66728677010728,
+                    "lng": -79.39297632989272
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "606863c795b93ed59b8cb6f5586bf5fa9afa24e1",
+        "name": "Parking",
+        "photos": [
+            {
+                "height": 2583,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101955585108845877262\">Kajan Krishnamoorthy</a>"
+                ],
+                "photo_reference": "CmRaAAAA5-cGGyQ-OSHUh4Vz02HP59v-rxx4UWCm5ISiJiCf3rexg5wPKYDAT6aTBdHGh01bg19cX2sMjhF_Rc64JJeMmtIsux75gzA_lfuXnC3M0B2uqXmObDPi0YYJgdJx74uHEhCTqTd1NGDWMG0pmgTIiKh5GhRdDqSJfjWQ8NRE_3hd2d-NXEJniQ",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJOcbHqbo0K4gRh4ja5W4ELnE",
+        "plus_code": {
+            "compound_code": "MJ95+F8 Toronto, Ontario",
+            "global_code": "87M2MJ95+F8"
+        },
+        "rating": 1,
+        "reference": "ChIJOcbHqbo0K4gRh4ja5W4ELnE",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "formatted_address": "13 Isabella St, Toronto, ON M4Y 1N4",
+        "geometry": {
+            "location": {
+                "lat": 43.667577,
+                "lng": -79.3847268
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66878537989272,
+                    "lng": -79.38340962010727
+                },
+                "southwest": {
+                    "lat": 43.66608572010728,
+                    "lng": -79.38610927989271
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "edfc4e5f21d2a4ba5c839abf136fb7dcf2810bb6",
+        "name": "Green P Parking",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105018072107377889560\">Joshua Nasielski</a>"
+                ],
+                "photo_reference": "CmRaAAAAvAUebn99E_4LDIUtewrMvyQcaIB-Zln1EW8o8B5Ufzrndipz82qnlw1XIpRUlIe7dHKgB2MH7yl042aIAfIPfVVUvm_B9wpiB_2qR7rMNbf1wcTqnqo7I1agTv8cf2CHEhDnIhpfP1IGtJazGt1akuoeGhTq7RNYb6yP_Bd4fVl7QBXAv3ebpQ",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJV5ULE7I0K4gRr7nL9z1vPZM",
+        "plus_code": {
+            "compound_code": "MJ98+24 Toronto, Ontario",
+            "global_code": "87M2MJ98+24"
+        },
+        "rating": 3.3,
+        "reference": "ChIJV5ULE7I0K4gRr7nL9z1vPZM",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 11
+    },
+    {
+        "formatted_address": "100 Bloor St W, Toronto, ON M5S 1M4",
+        "geometry": {
+            "location": {
+                "lat": 43.6697104,
+                "lng": -79.3912201
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67119307989272,
+                    "lng": -79.38982697010728
+                },
+                "southwest": {
+                    "lat": 43.66849342010727,
+                    "lng": -79.39252662989273
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "8986e3c27bf0cd0f677f902eeafa7c24f1fb04d0",
+        "name": "100 Bloor Street West - Lot #295",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115037903693680534695\">VISHAL KAATAL</a>"
+                ],
+                "photo_reference": "CmRaAAAAI3bXjRcSmUu6bIBzspQF85UQqtB47CSoiIgkbZp3LjenKGxPmQ4x09j968BIAwDQCneVbbgUcaMSuiJu1ISYnkD7D5WAHPL2lCkYoPGPKeDOokH6Vu_9O0yykfc_hcJXEhACuot0M_Rz2jYjGhoXchJ2GhSlUw2mG0Jfhu4dCM6WyPOv5nQn9Q",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJky7X8K80K4gRNt7zUmHqo2g",
+        "plus_code": {
+            "compound_code": "MJ95+VG Toronto, Ontario",
+            "global_code": "87M2MJ95+VG"
+        },
+        "rating": 2.3,
+        "reference": "ChIJky7X8K80K4gRNt7zUmHqo2g",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "formatted_address": "st, 777 Bay St, Toronto, ON",
+        "geometry": {
+            "location": {
+                "lat": 43.6595821,
+                "lng": -79.38635219999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66095032989272,
+                    "lng": -79.38492712010728
+                },
+                "southwest": {
+                    "lat": 43.65825067010728,
+                    "lng": -79.38762677989271
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "609f189e9576c843919d3f68886196124d9b0268",
+        "name": "parking",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117271754899872118845\">Robin</a>"
+                ],
+                "photo_reference": "CmRaAAAAupeA2vVKyLHmGHEuwEZHWqhguI1dRFKlaxiPb60MDI33UPx7Pyjp8vDEEsD0j0ZGDw-mu6Ic5mryZMF9-g4D9Rpkn0VSOL-dz54af0ViaxqzKdKYhK-_5Vc1ZJ4AE3r6EhDek_3pd-oVKuh-O04xEkP6GhQK7TXWCF_bDx0utA5ECznSqpGyTw",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJv34JybU0K4gRDdvsmfCsmdc",
+        "plus_code": {
+            "compound_code": "MJ57+RF Toronto, Ontario",
+            "global_code": "87M2MJ57+RF"
+        },
+        "rating": 4.3,
+        "reference": "ChIJv34JybU0K4gRDdvsmfCsmdc",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "formatted_address": "44 Charles St W, Toronto, ON M4Y 2R4",
+        "geometry": {
+            "location": {
+                "lat": 43.66911959999999,
+                "lng": -79.38867069999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67039617989272,
+                    "lng": -79.38757267010726
+                },
+                "southwest": {
+                    "lat": 43.66769652010728,
+                    "lng": -79.39027232989271
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "550a11743f9833bc4b9ecd5cb22921d8a390eb50",
+        "name": "Manulife Centre Parking - Lot #93",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 800,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104263965479470554047\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAyd-xNw0GLeaslog01PsnNjNEJHYUouhetlurOXv_uLStLFWWg4w-qa5I_x8p2eewxs8d03hnHsujVa6XgAQBrUYSc1J7E2rXuzJV3tI9-baKtwjzyO1f1At63Igq3aoAEhDWi_cyxHlBc62nLagnkJUmGhRiZy39IelnVQaQRJehk0lsUibtWw",
+                "width": 1200
+            }
+        ],
+        "place_id": "ChIJNVU00rE0K4gRqQ12mFZa0y4",
+        "plus_code": {
+            "compound_code": "MJ96+JG Toronto, Ontario",
+            "global_code": "87M2MJ96+JG"
+        },
+        "rating": 3,
+        "reference": "ChIJNVU00rE0K4gRqQ12mFZa0y4",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 8
+    },
+    {
+        "formatted_address": "40 Isabella St, Toronto, ON M4Y 1N1",
+        "geometry": {
+            "location": {
+                "lat": 43.6682283,
+                "lng": -79.3837317
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.66945807989271,
+                    "lng": -79.38233207010728
+                },
+                "southwest": {
+                    "lat": 43.66675842010727,
+                    "lng": -79.38503172989273
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "8680f314486d9e3c2e3eb65781ad0cd77067c85f",
+        "name": "Car Park Management",
+        "place_id": "ChIJ-bdrebI0K4gRF-0LCnu2EE8",
+        "plus_code": {
+            "compound_code": "MJ98+7G Toronto, Ontario",
+            "global_code": "87M2MJ98+7G"
+        },
+        "rating": 1.3,
+        "reference": "ChIJ-bdrebI0K4gRF-0LCnu2EE8",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "formatted_address": "131 Bloor St W, Toronto, ON M5S 1R1",
+        "geometry": {
+            "location": {
+                "lat": 43.6686325,
+                "lng": -79.392302
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67019482989272,
+                    "lng": -79.39103977010728
+                },
+                "southwest": {
+                    "lat": 43.66749517010728,
+                    "lng": -79.39373942989273
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "7660d4177afedc320374f907a934f47a84440f1f",
+        "name": "SP Parking",
+        "place_id": "ChIJA9obw0c1K4gRqdYW7GUDah4",
+        "plus_code": {
+            "compound_code": "MJ95+F3 Toronto, Ontario",
+            "global_code": "87M2MJ95+F3"
+        },
+        "rating": 1,
+        "reference": "ChIJA9obw0c1K4gRqdYW7GUDah4",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "formatted_address": "60 Yorkville Ave, Toronto, ON M4W 0A4",
+        "geometry": {
+            "location": {
+                "lat": 43.67157,
+                "lng": -79.389999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.67283852989272,
+                    "lng": -79.38861582010729
+                },
+                "southwest": {
+                    "lat": 43.67013887010728,
+                    "lng": -79.39131547989274
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c337780fec6bd312b95d846f364c491717ca8dd8",
+        "name": "Indigo",
+        "place_id": "ChIJHX17DK80K4gRTlvgLk-9gKY",
+        "plus_code": {
+            "compound_code": "MJC6+J2 Toronto, Ontario",
+            "global_code": "87M2MJC6+J2"
+        },
+        "rating": 4,
+        "reference": "ChIJHX17DK80K4gRTlvgLk-9gKY",
+        "types": [
+            "parking",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    }
+]

@@ -47,12 +47,8 @@
           "session": "session.js"
         },
         "components": {
-          "atoms": {
-
-          },
-          "molecules": {
-
-          },
+          "atoms": {},
+          "molecules": {},
           "organisms": {
             "Nav": "Nav.js"
           },
@@ -61,9 +57,7 @@
             "Home": "Home.js",
             "Maps": "Maps.js"
           },
-          "reactors": {
-
-          }
+          "reactors": {}
         },
         "reducers": {
           "auth": {

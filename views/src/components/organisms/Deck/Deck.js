@@ -2,37 +2,40 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
+// import { } from "../../../actions/";
 import PropTypes from "prop-types";
 
-import AuthNav from "../../organisms/AuthNav";
-import AppNav from "../../organisms/AppNav";
+import AuthNav from "../AuthNav";
+import AppNav from "../AppNav";
 
-import "./Dashboard.scss";
+import "./Maps.scss";
 
-class Dashboard extends Component {
+class Deck extends Component {
     state = {
-        
+
     };
 
     static propTypes = {
-        isAuthenticated: PropTypes.bool,
-        error: PropTypes.object.isRequired
+        
     };
 
     componentDidMount() {
 
     };
 
+    componentDidUpdate() {
+
+    };
+
     render() {
         const { } = this.state;
-        const { } = this.props;
 
         return (
             <>
                 <Helmet>
-                    <meta name="" content=""/>
-                    <meta name="" content=""/>
-                    <title>Dashboard</title>
+                    <meta name="description" content=""/>
+                    <meta name="keywords" content=""/>
+                    <title>Maps</title>
                 </Helmet>
                 <AuthNav/>
                 <AppNav/>
@@ -40,15 +43,14 @@ class Dashboard extends Component {
 
                 </main>
             </>
-        );
-    };
+        );  
+    }
 };
 
 const mapStateToProps = state => ({
-    isAuthenticated: state.auth.isAuthenticated,
-    error: state.error
+
 });
 
 const mapDispatchToProps = { };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
+export default connect (mapStateToProps, mapDispatchToProps)(Deck);

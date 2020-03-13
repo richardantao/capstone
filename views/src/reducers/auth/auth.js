@@ -1,7 +1,7 @@
 import { 
-    AUTH_ERROR, USER_LOADING, USER_LOADED, LOGIN_SUCCESS,
+    AUTH_ERROR, USER_REQUESTED, USER_LOADED, LOGIN_SUCCESS,
     LOGIN_FAILED, LOGOUT_SUCCESS, REGISTER_SUCCESS, REGISTER_FAILED 
-} from "../actions/types";
+} from "../../actions/types";
 
 const initialState = {
     token: localStorage.getItem("token"),
@@ -12,7 +12,7 @@ const initialState = {
 
 export default (state = initialState, action) => {
     switch(action.type) {
-        case USER_LOADING:
+        case USER_REQUESTED:
             return {
                 ...state,
                 isLoading: true

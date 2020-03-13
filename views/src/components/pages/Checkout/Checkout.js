@@ -2,9 +2,12 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { createSession } from "../../../actions/session";
-import { clearErrors } from "../../../actions/errors";
+import { createSession } from "../../../actions/app/sessions";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
+
+import AuthNav from '../../../components/organisms/AuthNav/';
+import AppNav from '../../../components/organisms/AppNav/';
 
 import {
     Alert, Button,
@@ -72,6 +75,8 @@ class Checkout extends Component {
                     <meta name="keywords" content="" />
                     <title>Checkout</title>
                 </Helmet>
+                <AuthNav/>
+                <AppNav/>
                 <Form onSubmit={this.handleSubmit}>
                         {  message === "" ? (
                             <Alert color="success">{message}</Alert>
@@ -83,7 +88,7 @@ class Checkout extends Component {
                         <Input
                             name=""
                             type=""
-                            value={}
+                            value=""
                             onChange={this.handleChange}
                             required
                         />

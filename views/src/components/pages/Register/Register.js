@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import { Container } from "reactstrap";
 
 import { connect } from "react-redux";
-import { register } from "../../../actions/auth";
-import { clearErrors } from "../../../actions/errors";
+import { register } from "../../../actions/auth/auth";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import AuthNav from '../../../components/organisms/AuthNav';
+
+import RegisterReactor from "../../reactors/Register";
 
 import "./Register.scss";
 
@@ -65,50 +68,12 @@ class Register extends Component {
                     <meta name="keywords" content="" />
                     <title>Register</title>
                 </Helmet>
-                <Form onSubmit={this.handleSubmit}>
-                    {  message === "Account Registered" ? (
-                        <Alert color="success">{message}</Alert>
-                    ): message ? (
-                        <Alert color="danger">{message}</Alert>
-                    ): null}
-                    <FormGroup>
-                        <Label for="first">First Name</Label>
-                        <Input 
-                            name="first"
-                            type="text"
-                            value={first}
-                            onChange={this.handleChange}
-                        />
-
-                        <Label for="last">Last Name</Label>
-                        <Input 
-                            name="last"
-                            type="text"
-                            value={last}
-                            onChange={this.handleChange}
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="email">Email</Label>
-                        <Input 
-                            name="email"
-                            type="email"
-                            value={email}
-                            onChange={this.handleChange}
-                        />
-
-                        <Label for="password">Password</Label>
-                        <Input 
-                            name="password"
-                            type="password"
-                            value={password}
-                            onChange={this.handleChange}
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Button type="submit">Register Account</Button>
-                    </FormGroup>
-                </Form>
+                <AuthNav/>
+                <Container>
+                    <h1>Register For An Account</h1>
+                    <RegisterReactor />
+                </Container>
+                
             </>
         );
     };

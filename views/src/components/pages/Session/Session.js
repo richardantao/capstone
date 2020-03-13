@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { fetchSessions, editSession, updateSession, deleteSession } from "../../../actions/session";
+import { fetchSessions, editSession, updateSession, deleteSession } from "../../../actions/app/sessions";
 import PropTypes from "prop-types";
 
-import Nav from "../../organisms/Nav";
+import AppNav from "../../organisms/AppNav";
 
 import "./Session.scss";
+
+import AuthNav from '../../../components/organisms/AuthNav/';
 
 class Session extends Component {
     state = {
@@ -38,7 +40,8 @@ class Session extends Component {
                     <meta name="keywords" content="" />
                     <title>Sessions</title>
                 </Helmet>
-                <Nav/>
+                <AuthNav/>
+                <AppNav/>
                 <main role="main">
 
                 </main>

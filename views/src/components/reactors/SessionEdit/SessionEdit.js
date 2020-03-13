@@ -5,6 +5,12 @@ import { updateSession, deleteSession } from "../../../actions/session";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
+import {
+    Alert, Button,
+    Modal, ModalHeader, ModalBody, ModalFooter,
+    Form, FormGroup, Label, Input
+} from "reactstrap";
+
 class SessionEdit extends Component {
     state = {
         modal: false,
@@ -20,9 +26,9 @@ class SessionEdit extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    async componentDidMount() {
+    componentDidMount() {
         const { clearErrors } = this.props;
-        await clearErrors();
+        clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -92,8 +98,34 @@ class SessionEdit extends Component {
         
         return (
             <>
-
+                <Button onClick={this.toggle}>Edit Session</Button>
                 
+                <Modal>
+                    <ModalHeader>
+                        Edit Session
+                    </ModalHeader>
+                    <Form>
+                        <ModalBody>
+                            <FormGroup>
+                                <Label for=""></Label>
+                                <Input
+                                    name=""
+                                    type=""
+                                    value=""
+                                    onChange={}
+                                    required
+                                
+                                />
+                            </FormGroup>
+                            <FormGroup>
+                                
+                            </FormGroup>
+                        </ModalBody>
+                        <ModalFooter>
+
+                        </ModalFooter>
+                    </Form>
+                </Modal>
             </>
         );
     };

@@ -23,10 +23,10 @@ class RegisterReactor extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    componentDidMount() {
+    async componentDidMount() {
         const { clearErrors } = this.props;
 
-        clearErrors();
+        await clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -81,6 +81,7 @@ class RegisterReactor extends Component {
                             type="text"
                             value={first}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="last">Last Name</Label>
@@ -89,6 +90,7 @@ class RegisterReactor extends Component {
                             type="text"
                             value={last}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>
@@ -98,6 +100,7 @@ class RegisterReactor extends Component {
                             type="email"
                             value={email}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="password">Password</Label>
@@ -106,6 +109,7 @@ class RegisterReactor extends Component {
                             type="password"
                             value={password}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>

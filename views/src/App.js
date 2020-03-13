@@ -13,6 +13,7 @@ import Maps from './components/pages/Maps'
 import Checkout from './components/pages/Checkout'
 import Session from './components/pages/Session'
 import Home from './components/pages/Home'
+import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
 
 
@@ -34,6 +35,7 @@ export default class App extends Component {
           <Route name="session" path="/sessions" component={Session}/>
           <Route name="history" path="/history" component={History} />
           <Route name="home" exact path="/" component={Home}/>
+          <Route name="about" exact path="/about" component={About}/>
           <Route name="notFound" path="*" component={NotFound}/>
         </Switch>
       </Provider>

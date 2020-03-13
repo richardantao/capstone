@@ -1,4 +1,11 @@
 .appNav {
+    background-color: #E1E1E1;
+    a {
+        color: rgb(185, 160, 160);
+    }
+    a:hover {
+        color: rgb(64, 121, 160);
+    }
     width: 20%;
     position: relative;
         left: auto;

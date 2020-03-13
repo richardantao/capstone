@@ -47,12 +47,8 @@
           "session": "session.js"
         },
         "components": {
-          "atoms": {
-
-          },
-          "molecules": {
-
-          },
+          "atoms": {},
+          "molecules": {},
           "organisms": {
             "Nav": "Nav.js"
           },
@@ -61,9 +57,7 @@
             "Home": "Home.js",
             "Maps": "Maps.js"
           },
-          "reactors": {
-
-          }
+          "reactors": {}
         },
         "reducers": {
           "auth": {
@@ -95,6 +89,7 @@
   },
   "homepage": "https://github.com/richardantao/capstone#readme",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^2.3.1",
     "async": "^3.2.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

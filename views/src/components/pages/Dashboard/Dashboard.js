@@ -4,13 +4,13 @@ import Helmet from "react-helmet";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import Nav from "../../organisms/Nav";
+import AppNav from "../../organisms/AppNav";
 
 import "./Dashboard.scss";
 
 class Dashboard extends Component {
     state = {
-
+        
     };
 
     static propTypes = {
@@ -29,9 +29,11 @@ class Dashboard extends Component {
         return (
             <>
                 <Helmet>
+                    <meta name="" content=""/>
+                    <meta name="" content=""/>
                     <title>Dashboard</title>
                 </Helmet>
-                <Nav/>
+                <AppNav/>
                 <main role="main">
 
                 </main>

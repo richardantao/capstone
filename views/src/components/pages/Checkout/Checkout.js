@@ -93,7 +93,7 @@ class Checkout extends Component {
                             Cancel Checkout
                         </Button>
                         <Button type="submit" className="">
-                            Create session
+                            Create Session
                         </Button>
                     </FormGroup>
                 </Form>

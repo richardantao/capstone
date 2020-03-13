@@ -34,6 +34,7 @@ export default ({ }) => {
         </NavItem>
           </Nav>
           <NavbarText>Simple Text</NavbarText>
+        
         {/* </Collapse> */}
       </Navbar>
 

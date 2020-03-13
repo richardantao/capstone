@@ -14,7 +14,6 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
 
-
 export default class App extends Component {
     
   componentDidMount() {

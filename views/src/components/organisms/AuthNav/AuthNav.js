@@ -18,7 +18,7 @@ export default ({ }) => {
           <NavLink href="/About">About</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
+          <NavLink disabled href="#">[Disabled Link]</NavLink>
         </NavItem>
       </Nav>
         </>

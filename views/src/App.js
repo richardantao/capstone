@@ -27,7 +27,7 @@ export default class App extends Component {
       <Provider store={store}>
         <Switch>
           <Route name="register" path="/register" component={Register}/>
-          <Route name="login" path="login" component={Login}/>
+          <Route name="login" path="/login" component={Login}/>
           <Route name="dashboard" path="/dashboard" component={Dashboard}/>
           <Route name="maps" path="/maps" component={Maps}/>
           <Route name="checkout" path="/checkout" component={Checkout}/>

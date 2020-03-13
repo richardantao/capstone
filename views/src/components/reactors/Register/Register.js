@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
-
-import AuthNav from '../../../components/organisms/AuthNav/';
 
 import { connect } from "react-redux";
 import { register } from "../../../actions/auth/auth";
@@ -11,7 +8,6 @@ import PropTypes from "prop-types";
 import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import "./Register.scss";
-import AppNav from "../../organisms/AppNav";
 
 class RegisterReactor extends Component {
     state = {
@@ -72,11 +68,6 @@ class RegisterReactor extends Component {
 
         return (
             <>
-                <Helmet>
-                    <meta name="description" content="" />
-                    <meta name="keywords" content="" />
-                    <title>Register</title>
-                </Helmet>
                 <Form onSubmit={this.handleSubmit}>
                     {  message === "Account Registered" ? (
                         <Alert color="success">{message}</Alert>

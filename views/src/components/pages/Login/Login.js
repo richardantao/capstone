@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import { Container } from "reactstrap";
 
 import { connect } from "react-redux";
 import { login } from "../../../actions/auth/auth";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import AppNav from '../../../components/organisms/AppNav';
 import AuthNav from '../../../components/organisms/AuthNav/';
 
+import LoginReactor from "../../reactors/Login";
 
-import { Form, FormGroup, Label, Input, Button } from "reactstrap";
+
 
 import "./Login.scss";
 
@@ -60,38 +61,20 @@ class Login extends Component {
         const { email, password } = this.state;  
 
         return (
-            <>
+            <div>
                 <Helmet>
                     <meta name="description" content=""/>
                     <meta name="keywords" content=""/>
                     <title>Login</title>
                 </Helmet>
                 <AuthNav/>
-                <Form>
-                    <FormGroup>
-                        <Label for="email">Email</Label>
-                        <Input
-                            name="email"
-                            type="email"
-                            placeholder="Email.."
-                            value={email}
-                            onChange={this.handleChange}
-                        />
+                <Container>
+                    <h1>Login</h1>
+                    <LoginReactor/>
+                    <a href="/login">Forgot Password</a>
+                </Container>
 
-                        <Label for="password">Password</Label>
-                        <Input
-                            name="password"
-                            type="password"
-                            placeholder="Password.."
-                            value={password}
-                            onChange={this.handleChange}
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Button type="submit">Login</Button>                        
-                    </FormGroup>
-                </Form>
-            </>
+            </div>
         );
     };
 };

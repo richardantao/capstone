@@ -7,9 +7,6 @@ import { register } from "../../../actions/auth/auth";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
-
-import AppNav from '../../../components/organisms/AppNav';
 import AuthNav from '../../../components/organisms/AuthNav';
 
 import RegisterReactor from "../../reactors/Register";

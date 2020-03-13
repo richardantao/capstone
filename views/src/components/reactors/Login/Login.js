@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { login } from "../../../actions/auth";
-import { clearErrors } from "../../../actions/errors";
+import { login } from "../../../actions/auth/auth";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
 import { Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import "./Login.scss";
 
-class Login extends Component {
+class LoginReactor extends Component {
     state = {
         email: "",
         password: ""
@@ -57,12 +56,7 @@ class Login extends Component {
 
         return (
             <>
-                <Helmet>
-                    <meta name="description" content=""/>
-                    <meta name="keywords" content=""/>
-                    <title>Login</title>
-                </Helmet>
-                <Form>
+                <Form onSubmit={this.handleSubmit}>
                     <FormGroup>
                         <Label for="email">Email</Label>
                         <Input
@@ -97,4 +91,4 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { login, clearErrors };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(LoginReactor);

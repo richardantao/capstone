@@ -39,6 +39,7 @@ payment:
 --
 _id: ObjectId
 googleAPIId: Number
+address: String
 latitude: Number
 longitude: Number
 totalSpaces: Number

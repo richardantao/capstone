@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-// import { } from "../../../actions/";
+import { fetchLots } from "../../../actions/app/lots";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import AuthNav from "../../organisms/AuthNav";
-import AppNav from "../../organisms/AppNav";
+import { Alert } from "reactstrap";
 
 import "./Maps.scss";
 
@@ -16,41 +15,49 @@ class Maps extends Component {
     };
 
     static propTypes = {
-        
+        error: PropTypes.object.isRequired,
+        lot: PropTypes.object.isRequired,
+        fetchLots: PropTypes.func.isRequired,
+        clearErrors: PropTypes.func.isRequired
     };
 
     componentDidMount() {
-
+        
     };
 
     componentDidUpdate() {
+        const { error } = this.props;
 
+        if(error !== prevProps.error) {
+            if(error.id === "LOT_ERROR") {
+                this.setState({
+                    message: error.message.message
+                });
+            } else {
+                this.setState({ message: null });
+            };
+        };
+
+        
     };
 
     render() {
-        const { } = this.state;
+        const { message } = this.state;
 
         return (
             <>
-                <Helmet>
-                    <meta name="description" content=""/>
-                    <meta name="keywords" content=""/>
-                    <title>Maps</title>
-                </Helmet>
-                <AuthNav/>
-                <AppNav/>
-                <main role="main">
-
-                </main>
+                { message ? <Alert color="danger">{message}</Alert> : null }
             </>
         );  
     }
 };
 
 const mapStateToProps = state => ({
-
+    isAuthenticated: state.auth.isAuthenticated,
+    error: state.error,
+    lot: state.lot
 });
 
-const mapDispatchToProps = { };
+const mapDispatchToProps = { fetchLots, clearErrors };
 
 export default connect (mapStateToProps, mapDispatchToProps)(Maps);

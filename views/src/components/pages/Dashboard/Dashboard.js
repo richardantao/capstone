@@ -4,7 +4,8 @@ import Helmet from "react-helmet";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import Nav from "../../organisms/Nav";
+import AuthNav from "../../organisms/AuthNav";
+import AppNav from "../../organisms/AppNav";
 
 import "./Dashboard.scss";
 
@@ -31,7 +32,8 @@ class Dashboard extends Component {
                 <Helmet>
                     <title>Dashboard</title>
                 </Helmet>
-                <Nav/>
+                <AuthNav/>
+                <AppNav/>
                 <main role="main">
 
                 </main>

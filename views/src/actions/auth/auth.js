@@ -5,7 +5,7 @@ import {
 import { returnErrors } from "./errors";
 import axios from "axios";
 
-export const loadUser = (dispatch, getState) => {
+export const loadUser = () => (dispatch, getState) => {
     dispatch({ type: USER_REQUESTED });
 
     axios.get("/api/v1/users", tokenConfig(getState))

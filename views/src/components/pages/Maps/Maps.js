@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { } from "../../../actions/";
+// import { } from "../../../actions/";
 import PropTypes from "prop-types";
 
-import Nav from "../../organisms/Nav";
+import AuthNav from "../../organisms/AuthNav";
 
 import "./Maps.scss";
 
@@ -36,7 +36,7 @@ class Maps extends Component {
                     <meta name="keywords" content=""/>
                     <title>Maps</title>
                 </Helmet>
-                <Nav/>
+                <AuthNav/>
                 <main role="main">
 
                 </main>

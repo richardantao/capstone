@@ -3,9 +3,18 @@ import { Route, Switch, withRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import store from "./store";
-import { loadUser } from "./actions/auth";
+import { loadUser } from "./actions/auth/auth";
 
 import "./App.scss";
+import Register from './components/pages/Register'
+import Login from './components/pages/Login'
+import Dashboard from './components/pages/Dashboard'
+import Maps from './components/pages/Maps'
+import Checkout from './components/pages/Checkout'
+import Session from './components/pages/Session'
+import Home from './components/pages/Home'
+import NotFound from './components/pages/NotFound'
+
 
 export default class App extends Component {
     

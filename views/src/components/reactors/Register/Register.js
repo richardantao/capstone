@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 
+import AuthNav from '../../../components/organisms/AuthNav/';
+
 import { connect } from "react-redux";
-import { register } from "../../../actions/auth";
-import { clearErrors } from "../../../actions/errors";
+import { register } from "../../../actions/auth/auth";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
 import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
 import "./Register.scss";
+import AppNav from "../../organisms/AppNav";
 
-class Register extends Component {
+class RegisterReactor extends Component {
     state = {
         first: "",
         last: "",
@@ -129,5 +132,5 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { register, clearErrors };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Register);
+export default connect(mapStateToProps, mapDispatchToProps)(RegisterReactor);
 

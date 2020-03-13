@@ -5,12 +5,12 @@ import auth from "./auth/auth";
 import error from "./auth/errors";
 
 /* --- Data --- */
-import parking from "./parking";
-import session from "./session";
+import lot from "./lots";
+import session from "./sessions";
 
 export default combineReducers({
     auth,
     error,
-    parking,
+    lot,
     session
 });

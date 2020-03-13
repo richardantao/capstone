@@ -2,9 +2,13 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 
 import { connect } from "react-redux";
-import { login } from "../../../actions/auth";
-import { clearErrors } from "../../../actions/errors";
+import { login } from "../../../actions/auth/auth";
+import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
+
+import AppNav from '../../../components/organisms/AppNav';
+import AuthNav from '../../../components/organisms/AuthNav/';
+
 
 import { Form, FormGroup, Label, Input, Button } from "reactstrap";
 
@@ -62,6 +66,8 @@ class Login extends Component {
                     <meta name="keywords" content=""/>
                     <title>Login</title>
                 </Helmet>
+                <AuthNav/>
+                <AppNav/>
                 <Form>
                     <FormGroup>
                         <Label for="email">Email</Label>

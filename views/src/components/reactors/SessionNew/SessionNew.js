@@ -5,6 +5,12 @@ import { createSession } from "../../../actions/session";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
+import { 
+    Alert, Button,
+    Modal, ModalHeader, ModalBody, ModalFooter,
+    Form, FormGroup, Label, Input, FormGroup, 
+} from "reactstrap"; 
+
 class SessionNew extends Component {
     state = {
         modal: false,
@@ -19,9 +25,9 @@ class SessionNew extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    async componentDidMount() {
+    componentDidMount() {
         const { clearErrors } = this.props;
-        await clearErrors();
+        clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -46,7 +52,8 @@ class SessionNew extends Component {
     };
 
     toggle = () => {
-
+        const { modal } = this.state;
+        this.setState({ modal: !modal });
     };
 
     handleChange = e => {
@@ -83,7 +90,35 @@ class SessionNew extends Component {
 
         return (
             <>
+                <Modal isOpen={modal}>
+                    <ModalHeader toggle={this.toggle}>
+                        New Session
+                    </ModalHeader>
+                    { message === "Session created" ? <Alert color="success">{message}</Alert>
+                    : message ? <Alert color="danger">{message}</Alert>
+                    : null }
+                    <Form>
+                        <ModalBody>
+                            <FormGroup>
+                                <Label for=""></Label>
+                                <Input
+                                    name=""
+                                    type=""
+                                    value={}
+                                    onChange={}
+                                    required
+                                />
+                            </FormGroup>
+                            <FormGroup>
 
+                            </FormGroup>
+                        </ModalBody>
+                        <ModalFooter>
+                            <Button type="button">Cancel</Button>
+                            <Button type="submit">Add Session</Button>
+                        </ModalFooter>
+                    </Form>
+                </Modal>
             </>
         );
     };

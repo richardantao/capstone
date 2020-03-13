@@ -24,10 +24,10 @@ class Register extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    componentDidMount() {
+    async componentDidMount() {
         const { clearErrors } = this.props;
 
-        clearErrors();
+        await clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -87,6 +87,7 @@ class Register extends Component {
                             type="text"
                             value={first}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="last">Last Name</Label>
@@ -95,6 +96,7 @@ class Register extends Component {
                             type="text"
                             value={last}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>
@@ -104,6 +106,7 @@ class Register extends Component {
                             type="email"
                             value={email}
                             onChange={this.handleChange}
+                            required
                         />
 
                         <Label for="password">Password</Label>
@@ -112,6 +115,7 @@ class Register extends Component {
                             type="password"
                             value={password}
                             onChange={this.handleChange}
+                            required
                         />
                     </FormGroup>
                     <FormGroup>

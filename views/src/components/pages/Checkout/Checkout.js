@@ -7,6 +7,7 @@ import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
 import AuthNav from '../../../components/organisms/AuthNav/';
+import AppNav from '../../../components/organisms/AppNav/';
 
 import {
     Alert, Button,
@@ -75,6 +76,7 @@ class Checkout extends Component {
                     <title>Checkout</title>
                 </Helmet>
                 <AuthNav/>
+                <AppNav/>
                 <Form onSubmit={this.handleSubmit}>
                         {  message === "" ? (
                             <Alert color="success">{message}</Alert>

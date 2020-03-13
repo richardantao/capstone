@@ -7,25 +7,19 @@ import "./AppNav.scss";
 export default ({ }) => {
     return (
         <div className="appNav">
-        <p>List Based</p>
         <Nav vertical>
           <NavItem>
-            <NavLink href="#">Link</NavLink>
+            <NavLink href="/dashboard">Dashboard</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Link</NavLink>
+            <NavLink href="/maps">Maps</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Another Link</NavLink>
+            <NavLink href="/session">Session</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">Disabled Link</NavLink>
+            <NavLink href="/history">History</NavLink>
           </NavItem>
-        </Nav>
-        <hr />
-        <p>Link based</p>
-        <Nav vertical>
-          <NavLink href="#">Link</NavLink> <NavLink href="#">Link</NavLink> <NavLink href="#">Another Link</NavLink> <NavLink disabled href="#">Disabled Link</NavLink>
         </Nav>
       </div>
   

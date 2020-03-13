@@ -1,13 +1,28 @@
-import React from "react";
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
+import React, { useState } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText
+} from 'reactstrap';
 
 export default ({ }) => {
     return (
         <>
-        <Nav pills>
-        <NavItem>
-          <NavLink href="/" active>Home</NavLink>
-        </NavItem>
+
+      <Navbar color="light" light expand="md">
+        <NavbarBrand href="/">capstone</NavbarBrand>
+        {/* <NavbarToggler onClick={toggle} /> */}
+        {/* <Collapse isOpen={isOpen} navbar> */}
+        <Nav className="mr-auto" navbar>
         <NavItem>
           <NavLink href="/Register">Register</NavLink>
         </NavItem>
@@ -17,10 +32,11 @@ export default ({ }) => {
         <NavItem>
           <NavLink href="/About">About</NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">[Disabled Link]</NavLink>
-        </NavItem>
-      </Nav>
+          </Nav>
+          <NavbarText>Simple Text</NavbarText>
+        {/* </Collapse> */}
+      </Navbar>
+
         </>
     );
 };

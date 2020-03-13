@@ -67,7 +67,6 @@ class Login extends Component {
                     <title>Login</title>
                 </Helmet>
                 <AuthNav/>
-                <AppNav/>
                 <Form>
                     <FormGroup>
                         <Label for="email">Email</Label>

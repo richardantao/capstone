@@ -72,7 +72,6 @@ class Register extends Component {
                     <title>Register</title>
                 </Helmet>
                 <AuthNav/>
-                <AppNav/>
                 <Container>
                     <h1>Register For An Account</h1>
                     <RegisterReactor />

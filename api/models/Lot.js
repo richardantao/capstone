@@ -1,10 +1,15 @@
-const Schema = require("mongoose").Schema;
-const model = require("mongoose").model;
+const mongoose = require("mongoose");
 
-var LotSchema = new Schema({
-    _id: Schema.Types.ObjectId,
+var LotSchema = new mongoose.Schema({
+    latitude: { type: Number, required: true },
+    longitude: { type: Number, required: true },
+    totalSpaces: Number,
+    price: { type: Number, required: true, default: 10 },
+    priceFactors: {
+        nearbyHotspots: Number
+    }
+}, {
+    timestamps: true
 });
 
-var LotModel = model("Lot", LotSchema)
-
-module.exports = LotModel;
+module.exports = mongoose.model("Lot", LotSchema)

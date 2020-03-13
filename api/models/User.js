@@ -1,16 +1,16 @@
-const Schema = require("mongoose").Schema;
-const model = require("mongoose").model;
+const mongoose = require("mongoose");
 
-var UserSchema = new Schema({
-    _id: Schema.Types.ObjectId,
+var UserSchema = new mongoose.Schema({
+    email: { type: String, required: true },
+    password: { type: String, required: true },
     name: {
         first: { type: String, required: true },
         last: { type: String, required: true }
     },
-    email: { type: String, required: true },
-    password: { type: String, required: true }
+    // payment: {}
+    // settings: {}
+}, {
+    timestamps: true
 });
 
-var UserModel = model("Users", UserSchema);
-
-module.exports = UserModel;
+module.exports = mongoose.model("User", UserSchema);

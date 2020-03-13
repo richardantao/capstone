@@ -1,2 +1,2 @@
-import Session from "./About";
-export default Session;
+import About from "./About";
+export default About;

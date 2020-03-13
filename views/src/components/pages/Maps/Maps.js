@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
 import AuthNav from "../../organisms/AuthNav";
+import AppNav from "../../organisms/AppNav";
 
 import "./Maps.scss";
 
@@ -37,6 +38,7 @@ class Maps extends Component {
                     <title>Maps</title>
                 </Helmet>
                 <AuthNav/>
+                <AppNav/>
                 <main role="main">
 
                 </main>

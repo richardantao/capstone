@@ -18,12 +18,10 @@ module.exports = (req, res, next) => {
         const decoded = jwt.verify(token, secret);
         
         req.user = decoded;
-
-        res.status(200).json({ message: "Token verified" });
         
         return next();
         } catch (e) {
-            res.status(400).json({ message: "Token is not valid" });
+            res.status(400).json({ message: "Authorization token is not valid" });
         };
     };    
 };

@@ -2,9 +2,9 @@ import {
     SESSION_REQUESTED,
     SESSION_CREATED, SESSION_FETCHED,
     SESSION_RETURNED, SESSION_UPDATED, SESSION_DELETED
-} from "./types"; 
-import { tokenConfig } from "./auth/auth";
-import { returnErrors } from "./auth/errors";
+} from "../types"; 
+import { tokenConfig } from "../auth/auth";
+import { returnErrors } from "../auth/errors";
 import axios from "axios";
 
 /**

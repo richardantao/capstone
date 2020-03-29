@@ -5,22 +5,18 @@ import "./AppLinks.scss";
 
 export default ({ }) => {
     return (
-        <div className="appNav">
+      <div className="appNav">
         <Nav vertical>
           <NavItem>
-            <NavLink href="/dashboard">Dashboard</NavLink>
+            <NavLink href="/app/dashboard">Dashboard</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/maps">Maps</NavLink>
+            <NavLink href="/app/maps">Maps</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/session">Session</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/history">History</NavLink>
+            <NavLink href="/app/session">Session</NavLink>
           </NavItem>
         </Nav>
       </div>
-  
     );
 };

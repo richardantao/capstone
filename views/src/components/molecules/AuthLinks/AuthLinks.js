@@ -12,7 +12,7 @@ import {
   DropdownMenu,
   DropdownItem,
   NavbarText
-} from 'reactstrap';
+} from "reactstrap";
 
 export default ({ }) => {
     return (
@@ -23,16 +23,13 @@ export default ({ }) => {
             {/* <Collapse isOpen={isOpen} navbar> */}
             <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/Register">Register</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/Login">Login</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/About">About</NavLink>
+              <NavLink href="/about">About</NavLink>
             </NavItem>
               </Nav>
-              <NavbarText>Simple Text</NavbarText>
+              
+              <NavLink href="/register">Register</NavLink>      
+              <NavLink href="/login">Login</NavLink>
+
             {/* </Collapse> */}
           </Navbar>
         </>

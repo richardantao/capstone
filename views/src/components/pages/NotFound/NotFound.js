@@ -1,26 +1,22 @@
 import React from "react";
+import Helmet from "react-helmet";
+
+import Nav from "../../../components/organisms/Nav/";
 
 import "./NotFound.scss";
 
-import Helmet from "react-helmet";
-
-import AuthNav from '../../../components/organisms/AuthNav/';
-
-
-const NotFound = () => {
-
-    
+export default () => {
     return (
         <>
             <Helmet>
-                <title>Resource Not Found</title>
+                <meta name="description" content=""/>
+                <meta name="keywords" content=""/>
+                <title>Page Not Found</title>
             </Helmet>
-            <AuthNav/>
+            <Nav/>
             <main role="main">
                 
             </main>
         </>  
     );
 };
-
-export default NotFound;

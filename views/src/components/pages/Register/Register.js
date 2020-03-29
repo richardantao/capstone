@@ -7,9 +7,9 @@ import { register } from "../../../actions/auth/auth";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import AuthNav from '../../../components/organisms/AuthNav';
+import Nav from '../../../components/organisms/Nav';
 
-import RegisterReactor from "../../reactors/Register";
+import Signup from "../../reactors/Signup";
 
 import "./Register.scss";
 
@@ -27,10 +27,9 @@ class Register extends Component {
         clearErrors: PropTypes.func.isRequired
     };
 
-    componentDidMount() {
+    async componentDidMount() {
         const { clearErrors } = this.props;
-
-        clearErrors();
+        await clearErrors();
     };
 
     componentDidUpdate(prevProps) {
@@ -64,16 +63,15 @@ class Register extends Component {
         return (
             <>
                 <Helmet>
-                    <meta name="description" content="" />
+                    <meta name="description" content="New users can register an account" />
                     <meta name="keywords" content="" />
                     <title>Register</title>
                 </Helmet>
-                <AuthNav/>
+                <Nav/>
                 <Container>
                     <h1>Register For An Account</h1>
-                    <RegisterReactor />
+                    <Signup />
                 </Container>
-                
             </>
         );
     };

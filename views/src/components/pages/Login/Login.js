@@ -7,9 +7,9 @@ import { login } from "../../../actions/auth/auth";
 import { clearErrors } from "../../../actions/auth/errors";
 import PropTypes from "prop-types";
 
-import AuthNav from '../../../components/organisms/AuthNav/';
+import Nav from '../../../components/organisms/Nav/';
 
-import LoginReactor from "../../reactors/Login";
+import Signin from "../../reactors/Signin";
 
 
 
@@ -67,10 +67,10 @@ class Login extends Component {
                     <meta name="keywords" content=""/>
                     <title>Login</title>
                 </Helmet>
-                <AuthNav/>
+                <Nav/>
                 <Container>
                     <h1>Login</h1>
-                    <LoginReactor/>
+                    <Signin/>
                     <a href="/login">Forgot Password</a>
                 </Container>
 

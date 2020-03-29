@@ -5,11 +5,10 @@ import { connect } from "react-redux";
 import { fetchSessions, editSession, updateSession, deleteSession } from "../../../actions/app/sessions";
 import PropTypes from "prop-types";
 
-import AppNav from "../../organisms/AppNav";
 
 import "./Session.scss";
 
-import AuthNav from '../../../components/organisms/AuthNav/';
+import Nav from "../../organisms/Nav";
 
 class Session extends Component {
     state = {
@@ -40,8 +39,7 @@ class Session extends Component {
                     <meta name="keywords" content="" />
                     <title>Sessions</title>
                 </Helmet>
-                <AuthNav/>
-                <AppNav/>
+                <Nav/>
                 <main role="main">
 
                 </main>

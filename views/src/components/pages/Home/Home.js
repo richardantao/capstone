@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-import AuthNav from '../../../components/organisms/AuthNav/';
+import Nav from '../../../components/organisms/Nav/';
 
 
 export default ({  }) => {
@@ -12,7 +12,7 @@ export default ({  }) => {
                 <meta name="keywords" content=""/>
                 <title>Home</title>
             </Helmet>
-            <AuthNav/>
+            <Nav/>
             <main role="main">
             <p>Welcome Home</p>
             </main>

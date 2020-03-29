@@ -7,9 +7,7 @@ import PropTypes from "prop-types";
 
 import "./History.scss";
 
-import AuthNav from '../../../components/organisms/AuthNav/';
-import AppNav from '../../../components/organisms/AppNav/';
-
+import Nav from '../../../components/organisms/Nav/';
 
 class History extends Component {
     state = {
@@ -39,8 +37,7 @@ class History extends Component {
                 <meta name="keywords" content=""/>
                 <title>History</title>
             </Helmet>
-            <AuthNav/>
-            <AppNav/>
+            <Nav/>
             </>
         );
     };

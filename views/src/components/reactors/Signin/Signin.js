@@ -62,7 +62,6 @@ class Signin extends Component {
                         <Input
                             name="email"
                             type="email"
-                            placeholder="Email.."
                             value={email}
                             onChange={this.handleChange}
                         />
@@ -71,7 +70,6 @@ class Signin extends Component {
                         <Input
                             name="password"
                             type="password"
-                            placeholder="Password.."
                             value={password}
                             onChange={this.handleChange}
                         />

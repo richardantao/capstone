@@ -14,7 +14,8 @@ class Signup extends Component {
         first: "",
         last: "",
         email: "",
-        password: ""
+        password: "",
+        message: null
     };
 
     static propTypes = {
@@ -25,7 +26,6 @@ class Signup extends Component {
 
     async componentDidMount() {
         const { clearErrors } = this.props;
-
         await clearErrors();
     };
 
@@ -69,11 +69,8 @@ class Signup extends Component {
         return (
             <>
                 <Form onSubmit={this.handleSubmit}>
-                    {  message === "Account Registered" ? (
-                        <Alert color="success">{message}</Alert>
-                    ): message ? (
-                        <Alert color="danger">{message}</Alert>
-                    ): null}
+                    { message ? <Alert color="danger">{message}</Alert>
+                    : null }
                     <FormGroup>
                         <Label for="first">First Name</Label>
                         <Input 
@@ -113,7 +110,7 @@ class Signup extends Component {
                         />
                     </FormGroup>
                     <FormGroup>
-                        <Button type="submit">Register Account</Button>
+                        <Button type="submit">Register </Button>
                     </FormGroup>
                 </Form>
             </>
@@ -128,4 +125,3 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = { register, clearErrors };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Signup);
-

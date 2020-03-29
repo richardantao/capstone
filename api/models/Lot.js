@@ -1,6 +1,7 @@
-const mongoose = require("mongoose");
+const Schema = require("mongoose").Schema;
+const model = require("mongoose").model;
 
-var LotSchema = new mongoose.Schema({
+module.exports = model("Lot",new Schema({
     latitude: { type: Number, required: true },
     longitude: { type: Number, required: true },
     totalSpaces: Number,
@@ -10,6 +11,4 @@ var LotSchema = new mongoose.Schema({
     }
 }, {
     timestamps: true
-});
-
-module.exports = mongoose.model("Lot", LotSchema)
+}));

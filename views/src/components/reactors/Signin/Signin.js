@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 
 import { Form, FormGroup, Label, Input, Button } from "reactstrap";
 
-import "./Login.scss";
+import "./Signin.scss";
 
-class LoginReactor extends Component {
+class Signin extends Component {
     state = {
         email: "",
         password: ""
@@ -91,4 +91,4 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { login, clearErrors };
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginReactor);
+export default connect(mapStateToProps, mapDispatchToProps)(Signin);

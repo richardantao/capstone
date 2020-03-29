@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 
 import { Alert, Form, FormGroup, Label, Input, Button } from "reactstrap";
 
-import "./Register.scss";
+import "./Signup.scss";
 
-class RegisterReactor extends Component {
+class Signup extends Component {
     state = {
         first: "",
         last: "",
@@ -127,5 +127,5 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { register, clearErrors };
 
-export default connect(mapStateToProps, mapDispatchToProps)(RegisterReactor);
+export default connect(mapStateToProps, mapDispatchToProps)(Signup);
 

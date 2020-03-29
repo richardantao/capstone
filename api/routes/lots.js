@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const auth = require("../middleware/auth");
-const controller = require("../controllers/parking");
+const controller = require("../controllers/lots");
 
 router.get("/parking", auth, controller.fetch);
 

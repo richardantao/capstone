@@ -1,4 +1,4 @@
-const Parking = require("../models/Parking");
+const Parking = require("../models/Lot");
 
 exports.fetch = (req, res) => {
     const { } = req.query;

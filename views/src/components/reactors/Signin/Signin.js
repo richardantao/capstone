@@ -75,7 +75,7 @@ class Signin extends Component {
                         />
                     </FormGroup>
                     <FormGroup>
-                        <Button type="submit">Login</Button>                        
+                        <Button type="submit" color="primary">Login</Button>                        
                     </FormGroup>
                 </Form>
             </>

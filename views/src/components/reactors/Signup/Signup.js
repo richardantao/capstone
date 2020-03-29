@@ -110,7 +110,7 @@ class Signup extends Component {
                         />
                     </FormGroup>
                     <FormGroup>
-                        <Button type="submit">Register </Button>
+                        <Button type="submit" color="primary">Register </Button>
                     </FormGroup>
                 </Form>
             </>

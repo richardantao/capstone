@@ -19,6 +19,7 @@ export default () => {
             <Container>
                 <h1>Register</h1>
                 <Signup />
+                <span>Already have an account?</span> <a href="/register">Login</a>
             </Container>
         </>
     );

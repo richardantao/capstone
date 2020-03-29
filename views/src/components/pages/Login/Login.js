@@ -19,7 +19,8 @@ export default () => {
             <Container>
                 <h1>Login</h1>
                 <Signin/>
-                <a href="#forgot-password">Forgot Password</a>
+                <a href="#forgot-password">Forgot Password</a><br/>
+                <span>Don't have an account?</span> <a href="/register">Sign up</a>
             </Container>
         </>  
     );
